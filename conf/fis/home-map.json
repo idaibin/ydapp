@@ -1,0 +1,80 @@
+{
+    "res": {
+        "home:page/index.tpl": {
+            "uri": "home/page/index.tpl",
+            "type": "tpl",
+            "extras": {
+                "isPage": true
+            }
+        },
+        "home:page/layout.tpl": {
+            "uri": "home/page/layout.tpl",
+            "type": "tpl",
+            "extras": {
+                "isPage": true
+            }
+        },
+        "home:static/js/bigpipe.js": {
+            "uri": "/static/home/static/js/bigpipe.js",
+            "type": "js"
+        },
+        "home:static/js/index.js": {
+            "uri": "/static/home/static/js/index.js",
+            "type": "js"
+        },
+        "home:static/js/jquery-2.1.3.min.js": {
+            "uri": "/static/home/static/js/jquery-2.1.3.min.js",
+            "type": "js"
+        },
+        "home:static/js/lazyload.js": {
+            "uri": "/static/home/static/js/lazyload.js",
+            "type": "js"
+        },
+        "home:static/js/mod.js": {
+            "uri": "/static/home/static/js/mod.js",
+            "type": "js"
+        },
+        "home:static/js/page.js": {
+            "uri": "/static/home/static/js/page.js",
+            "type": "js",
+            "deps": [
+                "home:static/js/bigpipe.js"
+            ]
+        },
+        "home:widget/footer/footer.css": {
+            "uri": "/static/home/widget/footer/footer.css",
+            "type": "css"
+        },
+        "home:widget/footer/footer.js": {
+            "uri": "/static/home/widget/footer/footer.js",
+            "type": "js",
+            "deps": [
+                "home:widget/footer/footer.css"
+            ]
+        },
+        "home:widget/footer/footer.tpl": {
+            "uri": "home/widget/footer/footer.tpl",
+            "type": "tpl",
+            "deps": [
+                "home:widget/footer/footer.js",
+                "home:widget/footer/footer.css"
+            ]
+        },
+        "home:widget/header/header.js": {
+            "uri": "/static/home/widget/header/header.js",
+            "type": "js"
+        },
+        "home:widget/message/message.js": {
+            "uri": "/static/home/widget/message/message.js",
+            "type": "js"
+        },
+        "home:widget/message/message.tpl": {
+            "uri": "home/widget/message/message.tpl",
+            "type": "tpl",
+            "deps": [
+                "home:widget/message/message.js"
+            ]
+        }
+    },
+    "pkg": {}
+}
